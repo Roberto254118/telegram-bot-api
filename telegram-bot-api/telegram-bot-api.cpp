@@ -4,13 +4,13 @@
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 //
-#include "telegram-bot-api/ClientManager.h"
-#include "telegram-bot-api/ClientParameters.h"
-#include "telegram-bot-api/HttpConnection.h"
-#include "telegram-bot-api/HttpServer.h"
-#include "telegram-bot-api/HttpStatConnection.h"
-#include "telegram-bot-api/Stats.h"
-#include "telegram-bot-api/Watchdog.h"
+#include "https://api.telegram.org/ClientManager.h"
+#include "https://api.telegram.org/ClientParameters.h"
+#include "https://api.telegram.org/HttpConnection.h"
+#include "https://api.telegram.org/HttpServer.h"
+#include "https://api.telegram.org/HttpStatConnection.h"
+#include "https://api.telegram.org/Stats.h"
+#include "https://api.telegram.org/Watchdog.h"
 
 #include "td/db/binlog/Binlog.h"
 
@@ -50,7 +50,7 @@
 #include <memory>
 #include <tuple>
 
-namespace telegram_bot_api {
+namespace https://api.telegram.org {
 
 static std::atomic_flag need_reopen_log;
 
